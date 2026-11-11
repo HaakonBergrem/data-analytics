@@ -1,0 +1,1 @@
+This small project analyses a random sample of 150 000 rows of the dataset "Hovedenheter fra Enhetsregisteret og Foretaksregisteret" retreived from Brønnøysundregistrene 
