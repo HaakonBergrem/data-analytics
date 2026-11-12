@@ -1,10 +1,13 @@
+# This file takes a dataset and reduces its size to 150k rows that are randomly selected. The new file is stored in the /data folder
+
 import pandas as pd
 from pathlib import Path
 
+# This ensures the file is accessible regardless of the location of the user
+BASE_DIR = Path(__file__).parent
 
-# Creates a new, smaller file with random rows from the original
-INPUT_FILE = Path("data/enheter.csv")          
-OUTPUT_FILE = Path("data/enheter_150k.csv")    
+INPUT_FILE = BASE_DIR / "data" / "enheter.csv"         
+OUTPUT_FILE = BASE_DIR / "data" / "enheter_150k.csv"   
 SAMPLE_SIZE = 150_000
 RANDOM_SEED = 42                               
 
