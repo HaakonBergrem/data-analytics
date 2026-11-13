@@ -208,6 +208,7 @@ def basic_overview(df: pd.DataFrame) -> None:
     print(f"Active companies: {df['is_active'].sum():,}")
     print(f"Bankrupt: {df['is_bankrupt'].sum():,}")
     print(f"Average number of employees: {df['employees'].mean():.1f}")
+    print(f"Median number of employees: {df['employees'].median():.1f}")
 
 def main():
     df = load_data(DATA_PATH)

@@ -308,7 +308,7 @@ def plot_feature_importance(rf_pipeline, categorical_features, numeric_features)
         pd.DataFrame(rows)
         .groupby("feature", as_index=False)["importance"]
         .sum()
-        .sort_values("importance", ascending=True)
+        .sort_values("importance", ascending=False)
     )
 
     plt.figure(figsize=(9, 5))
