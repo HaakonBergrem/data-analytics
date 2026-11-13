@@ -5,8 +5,8 @@ Small exploratory analysis of Norwegian company data from **Brønnøysundregistr
 ## What it does
 
 - Loads a subset of relevant columns from the raw CSV
-- Cleans and prepares the data (dates, booleans, missing values)
-- Creates a few simple features (e.g. active status, founded year)
+- Cleans and prepares the data
+- Creates a few simple features
 - Visualises key patterns:
   - Top municipalities
   - Years with the most new companies
