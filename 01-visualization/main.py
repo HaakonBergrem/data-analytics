@@ -1,7 +1,3 @@
-# This file analyses a random sample of 150k rows from the "Enhetsregister" dataset. 
-# First, a dataframe using only relevant columns is created. Then some simple cleaning and feature creation is done. 
-# Lastly, the dataframe is analysed and the results visualized.
-
 import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
