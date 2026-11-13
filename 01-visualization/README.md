@@ -1,4 +1,4 @@
-# Enhetsregister Analysis
+# Enhetsregister Visualization
 
 Small exploratory analysis of Norwegian company data from **Brønnøysundregistrene**.
 

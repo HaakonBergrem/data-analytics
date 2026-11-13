@@ -10,7 +10,7 @@ import seaborn as sns
 # This ensures the file is accessible regardless of the location of the user
 BASE_DIR = Path(__file__).parent
 
-DATA_PATH = BASE_DIR / "data" / "enheter_150k.csv"
+DATA_PATH = BASE_DIR.parent / "data" / "enheter_150k.csv"
 
 
 # Columns to keep
